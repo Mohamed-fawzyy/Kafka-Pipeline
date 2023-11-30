@@ -123,14 +123,14 @@ https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0250EN-
 python3 streaming_data_reader.py
 ```
 9. Health check of the streaming data pipeline.
-- If you have done all the steps till here correctly, the streaming toll data would get stored in the table `livetolldata`.
+- If you have done all the steps till here correctly, the streaming toll data will get stored in the table `livetolldata`.
 <!-- Side Note: Additional Information -->
-> Try : List the top 10 rows in the table `livetolldata`.
+> Try: List the top 10 rows in the table `livetolldata`.
 
 
 # SnapShot and Results 📸
 * I provided my solution for this project a Bash file script go and check it out.
-* After implementations your results of Kafka pipeline should look like this:
+* After implementations your results of the Kafka pipeline should look like this:
 
   - <b>Simulator output of task 6</b>
     ![simulator_output](https://github.com/Mohamed-fawzyy/Kafka-Pipeline/assets/111665714/ba426df3-a5f5-4270-8628-cf15ac455e44)
@@ -141,10 +141,11 @@ python3 streaming_data_reader.py
 
 
   - <b> Data reader to start workflow with Kafka. Output of task 8</b> <br>
-    ![streaming_reader_code](https://github.com/Mohamed-fawzyy/Kafka-Pipeline/assets/111665714/628f9f95-c171-431b-a4e1-e206f2def52e)
+  ![data_reader_output](https://github.com/Mohamed-fawzyy/Kafka-Pipeline/assets/111665714/6bb2269c-01b8-4821-a88f-05a671137b10)
 
 
-  - <b> After running all previous command correctly your final result should be like this. Output of task 9</b> <br>
+
+  - <b> After running all previous commands correctly your final result should be like this. Output of task 9</b> <br>
     ![output_rows](https://github.com/Mohamed-fawzyy/Kafka-Pipeline/assets/111665714/ff3fbac2-9a49-4e96-886c-7e113e2321ac)
 
 
